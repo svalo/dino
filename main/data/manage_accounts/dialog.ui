@@ -6,7 +6,7 @@
         <property name="visible">True</property>
         <child type="titlebar">
             <object class="GtkHeaderBar">
-                <property name="title">Accounts</property>
+                <property name="title" translatable="yes">Accounts</property>
                 <property name="show_close_button">True</property>
                 <property name="visible">True</property>
             </object>
@@ -145,7 +145,7 @@
                                         </child>
                                         <child>
                                             <object class="GtkLabel">
-                                                <property name="label">Password</property>
+                                                <property name="label" translatable="yes">Password</property>
                                                 <property name="xalign">1</property>
                                                 <property name="visible">True</property>
                                                 <style>
@@ -199,7 +199,7 @@
                                         </child>
                                         <child>
                                             <object class="GtkLabel">
-                                                <property name="label">Local alias</property>
+                                                <property name="label" translatable="yes">Local alias</property>
                                                 <property name="xalign">1</property>
                                                 <property name="visible">True</property>
                                                 <style>
@@ -288,7 +288,7 @@
                         </child>
                         <child>
                             <object class="GtkButton" id="no_accounts_add">
-                                <property name="label">Add an account</property>
+                                <property name="label" translatable="yes">Add an account</property>
                                 <property name="halign">center</property>
                                 <property name="visible">True</property>
                                 <style>

@@ -157,9 +157,9 @@ public class Dialog : Gtk.Window {
 
     private void on_image_button_clicked() {
         FileChooserDialog chooser = new FileChooserDialog (
-				"Select avatar", this, FileChooserAction.OPEN,
-				"Cancel", ResponseType.CANCEL,
-				"Select", ResponseType.ACCEPT);
+				_("Select avatar"), this, FileChooserAction.OPEN,
+				_("Cancel"), ResponseType.CANCEL,
+				_("Select"), ResponseType.ACCEPT);
         FileFilter filter = new FileFilter();
         filter.add_mime_type("image/*");
         chooser.set_filter(filter);
